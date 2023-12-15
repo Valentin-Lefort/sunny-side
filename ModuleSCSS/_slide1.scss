@@ -1,0 +1,81 @@
+.slide1{
+  text-align: center;
+  .egg{
+    img{
+      width: 100%
+    }
+    .eggtext{
+      width: 90%;
+      margin: auto;
+      .eggtexth3{
+        font-family: 'Fraunces', serif;
+        font-size: 32px;
+        line-height: 39.46px;
+        letter-spacing: -0.23px;
+        padding-top: 30px;
+      }
+      .eggp{
+        padding-top:15px ;
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.13px;
+        color: #808397;
+        padding-bottom: 30px;
+      }
+      .learnmore{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        .more{
+          z-index: 1;
+          font-family: 'Fraunces', serif;
+          font-size: 15px;
+          line-height: 25px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+        .moreline{
+          background-color:  #FAD400;
+          width: 137px;
+          height: 10px;
+          opacity: 25%;
+          border-radius: 5px;
+          transform: translate(0px, -10px);
+          z-index: 0;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width:1024px){
+  .slide1{
+    // display: grid;
+    .egg{
+      .eggimg{
+        width: 50%;
+        float: right;
+      }
+      .eggtext{
+        width: 50%;
+        height: 569px;
+        float: left;
+        // padding-top: 158px;
+      }
+      .eggtexth3{
+        width: 350px;
+        font-size: 40px;
+        letter-spacing: -0.29px;
+        line-height: 49.32px;
+        text-align: start;
+        margin: auto;
+        margin-top: 140px;
+      }
+      .eggp{
+        width: 445px;
+        margin: auto;
+      }
+    }
+  }
+}

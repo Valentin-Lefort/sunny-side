@@ -1,0 +1,142 @@
+.people{
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  // height: 600px;
+  .peopleh3{
+    font-family: 'Fraunces', serif;
+    color: #A7AAAD;
+    text-align: center;
+    font-size: 16px;
+    line-height: 19.73px;
+    letter-spacing: 4px;
+  }
+  .emilyimg{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+  }
+  .emily{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:84px;
+  }
+  .emilyp{
+    font-family: 'Barlow', sans-serif;
+    color: #5B636D;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.13px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  &_title{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    .emilyh2{
+      color: #24303E;
+      font-family: 'Fraunces', serif;
+      font-size: 18px;
+      line-height: 22.19px;
+      letter-spacing: -0.13px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .emilyspan{
+      color: #A7AAAD;
+    }
+  }
+  .thomasimg{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+  }
+  .thomas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:84px;
+  }
+  .thomasp{
+    font-family: 'Barlow', sans-serif;
+    color: #5B636D;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.13px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  &_title{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    .thomash2{
+      color: #24303E;
+      font-family: 'Fraunces', serif;
+      font-size: 18px;
+      line-height: 22.19px;
+      letter-spacing: -0.13px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .thomasspan{
+      color: #A7AAAD;
+    }
+  }
+  .jennieimg{
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+  }
+  .jennie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:84px;
+  }
+  .jenniep{
+    font-family: 'Barlow', sans-serif;
+    color: #5B636D;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.13px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  &_title{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    .jennieh2{
+      color: #24303E;
+      font-family: 'Fraunces', serif;
+      font-size: 18px;
+      line-height: 22.19px;
+      letter-spacing: -0.13px;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    .jenniespan{
+      color: #A7AAAD;
+      padding-bottom: 86px;
+    }
+  }
+}
+
+@media only screen and (min-width:1024px){
+  .people{
+    // height: 25px;
+    .ppl{
+      display: flex;
+      flex-direction: row;
+    }
+    .jennieimg{
+      padding-top: 80px;
+    }
+  }
+}

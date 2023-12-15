@@ -1,0 +1,37 @@
+.orange{
+  // width: 375px;
+  height: 600px;
+  background-image: url(resources/images/photos/image-photography.jpg);
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  // justify-items: center;
+  text-align: center;
+  .orangeh3{
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    line-height: 34.52px;
+    letter-spacing: -0.2px;
+    padding-bottom: 25px;
+    color: #19536C;
+  }
+  .orangep{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.11px;
+    color: #19536C;
+    padding-bottom: 60px;
+    width: 327px;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width:1024px){
+  .orange{
+    width: 50%;
+    float: right;
+    transform: translate(0px, -3px);
+  }
+}

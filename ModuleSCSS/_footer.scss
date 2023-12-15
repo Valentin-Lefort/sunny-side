@@ -1,0 +1,32 @@
+.foot{
+  background-color: #90D4C6;
+  height: 350px;
+  .logo{
+    display: flex;
+    justify-content: center;
+    width: 170px;
+    height: 33px;
+    margin: auto;
+    padding-top: 64px;
+    padding-bottom: 40px;
+    filter: brightness(0) saturate(100%) invert(39%) sepia(7%) saturate(3280%) hue-rotate(118deg) brightness(97%) contrast(89%);
+  }
+  .li{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.13px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: #458D7E;
+    padding-bottom: 88px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 164px;
+  margin: auto;
+}
+}

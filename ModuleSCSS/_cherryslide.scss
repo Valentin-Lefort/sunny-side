@@ -1,0 +1,40 @@
+.cherry{
+  // width: 375px;
+  height: 600px;
+  background-image: url(resources/images/photos/image-graphic-design.jpg);
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  // justify-items: center;
+  text-align: center;
+  .cherryh3{
+    font-family: 'Fraunces', serif;
+    font-size: 28px;
+    line-height: 34.52px;
+    letter-spacing: -0.2px;
+    padding-bottom: 25px;
+    color: #24554A;
+  }
+  .cherryp{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.11px;
+    color: #24554A;
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (min-width:1024px){
+  .cherry{
+    width: 50%;
+    // display: flex;
+    float: left;
+    transform: translate(0px, -3px);
+    .cherryp{
+      width: 339px;
+      margin: auto;
+    }
+  }
+}
